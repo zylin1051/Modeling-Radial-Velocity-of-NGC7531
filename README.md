@@ -34,5 +34,5 @@ We will evaluate the performances of these models based on different criteria, s
 
 [View the project report](project-report.pdf)
 
-## Appendix
-[View the appendix (code)](project-appendix.pdf)
+## Code
+[View the code](project-r-script.R)
