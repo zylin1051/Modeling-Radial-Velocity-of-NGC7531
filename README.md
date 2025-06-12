@@ -16,14 +16,14 @@ The data set contains the radial velocity of NGC 7531 measured at 323 points in 
 
 The dataset is available at [The Elements of Statistical Learning -> Data -> Galaxy](https://hastie.su.domains/ElemStatLearn/).
 
-## Research Question
+## Project Question
 
 According to [Universe Guide (2023)](https://www.universeguide.com/galaxy/ngc7531), NGC 7531 is about 72,468,685.56 light-years from Earth. When we, as human beings, look at galaxies in the sky, we are looking at positions where those galaxies used to be, perhaps million years ago, due to the fact those galaxies are too far away from the Earth such that it takes a very long time for the light to reach us from them. 
 
 As a result, when we measure the radial velocity of NGC 7531 from different positions of the sky that it covers, there would be inconsistency in the measured values. Our project aims to determine a suitable model to describe the association between the radial velocity of NGC 7531 and the coordinates of positions in the sky from which it is measured, that is, how does the radial velocity vary as we measure from different parts of NGC 7531?
 
 
-## Research Plan
+## Plan
 Different model-fitting methods will be considered in our project, including linear regression, polynomial regression, and additive models with different regularizations. Using a variety of models allows us to discover any linear and non-linear associations in the data and identify a suitable model for accurately describing the association between the radial velocity and the coordinates of NGC 7531.
 
 We will use linear regression to investigate any potential linear relationship between the response and the covariates. Polynomial regression will then be used to give an insight into some potentially non-linear associations between the response and the covariates. We will also consider ordinary ridge regression to address any multicollinearity between the covariates, and some other additive models with different regularization to help us capture more complex associations in the data. 
