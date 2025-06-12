@@ -32,7 +32,7 @@ We will evaluate the performances of these models based on different criteria, s
 
 ## Project Report
 
-[View the project report]()
+[View the project report](project-report.pdf)
 
 ## Appendix
-[View the appendix (code)]()
+[View the appendix (code)](project-appendix.pdf)
