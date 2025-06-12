@@ -9,7 +9,7 @@ This project was complete as part of my coursework requirement in STAT 444 - Adv
 
 ## Data Description
 
-The galaxy data set comes from the paper "The structure and dynamics of ringed galaxies. III - Surface photometry and kinematics of the ringed nonbarred spiral NGC 7531" by Buta (1987) which aims to investigate the surface photometry and kinematics of NGC 7531, a nonbarred spiral galaxy with a very bright inner ring. 
+The galaxy data set comes from the paper "The Structure and Dynamics of Ringed Galaxies. III. Surface Photometry and Kinematics of the Ringed Nonbarred Spiral NGC 7531" by [Buta (1987)](https://ui.adsabs.harvard.edu/abs/1987ApJS...64....1B/abstract) which aims to investigate the surface photometry and kinematics of NGC 7531, a nonbarred spiral galaxy with a very bright inner ring. 
 
 
 The data set contains the radial velocity of NGC 7531 measured at 323 points in the area of sky it covers, which is the response variable of our project. A two-dimensional frame is set up on NGC 7531 such that the origin (0,0) is near the centre of the galaxy, the east and the south are negative, and the north and the west are positive. The covariates of interest are the east-west and north-south coordinates of NGC 7531 from which its radial velocity is measured.
@@ -18,7 +18,7 @@ The dataset is available at [The Elements of Statistical Learning -> Data -> Gal
 
 ## Research Question
 
-According to Universe Guide (2023), NGC 7531 is about 72,468,685.56 light-years from Earth. When we, as human beings, look at galaxies in the sky, we are looking at positions where those galaxies used to be, perhaps million years ago, due to the fact those galaxies are too far away from the Earth such that it takes a very long time for the light to reach us from them. 
+According to [Universe Guide (2023)](https://www.universeguide.com/galaxy/ngc7531), NGC 7531 is about 72,468,685.56 light-years from Earth. When we, as human beings, look at galaxies in the sky, we are looking at positions where those galaxies used to be, perhaps million years ago, due to the fact those galaxies are too far away from the Earth such that it takes a very long time for the light to reach us from them. 
 
 As a result, when we measure the radial velocity of NGC 7531 from different positions of the sky that it covers, there would be inconsistency in the measured values. Our project aims to determine a suitable model to describe the association between the radial velocity of NGC 7531 and the coordinates of positions in the sky from which it is measured, that is, how does the radial velocity vary as we measure from different parts of NGC 7531?
 
